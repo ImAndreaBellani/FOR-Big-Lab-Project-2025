@@ -1,0 +1,39 @@
+{
+  "days": 7,
+  "rooms": [
+    {"id": 0, "capacity": 3},
+    {"id": 1, "capacity": 2},
+    {"id": 2, "capacity": 2},
+    {"id": 3, "capacity": 2},
+    {"id": 4, "capacity": 2}
+  ],
+  "patients": [
+    {"id": 0, "length_of_stay": 3, "release_date": 0, "due_date": 3, "incompatible_room_ids": []},
+    {"id": 1, "length_of_stay": 2, "release_date": 0, "due_date": 4, "incompatible_room_ids": [1]},
+    {"id": 2, "length_of_stay": 4, "release_date": 0, "due_date": 5, "incompatible_room_ids": [2]},
+    {"id": 3, "length_of_stay": 3, "release_date": 0, "due_date": 4, "incompatible_room_ids": [0]},
+    {"id": 4, "length_of_stay": 2, "release_date": 1, "due_date": 6, "incompatible_room_ids": []},
+    {"id": 5, "length_of_stay": 3, "release_date": 1, "due_date": 6, "incompatible_room_ids": [3]},
+    {"id": 6, "length_of_stay": 1, "release_date": 0, "due_date": 2, "incompatible_room_ids": []},
+    {"id": 7, "length_of_stay": 2, "release_date": 2, "due_date": 5, "incompatible_room_ids": [1]},
+    {"id": 8, "length_of_stay": 3, "release_date": 0, "due_date": 6, "incompatible_room_ids": []},
+    {"id": 9, "length_of_stay": 3, "release_date": 2, "due_date": 7, "incompatible_room_ids": []},
+    {"id": 10, "length_of_stay": 2, "release_date": 3, "due_date": 6, "incompatible_room_ids": [4]},
+    {"id": 11, "length_of_stay": 2, "release_date": 4, "due_date": 7, "incompatible_room_ids": []},
+    {"id": 12, "length_of_stay": 1, "release_date": 4, "due_date": 7, "incompatible_room_ids": [3]},
+    {"id": 13, "length_of_stay": 2, "release_date": 1, "due_date": 5, "incompatible_room_ids": []},
+    {"id": 14, "length_of_stay": 3, "release_date": 2, "due_date": 6, "incompatible_room_ids": []},
+    {"id": 15, "length_of_stay": 1, "release_date": 3, "due_date": 4, "incompatible_room_ids": []},
+    {"id": 16, "length_of_stay": 2, "release_date": 0, "due_date": 3, "incompatible_room_ids": [2]},
+    {"id": 17, "length_of_stay": 3, "release_date": 4, "due_date": 7, "incompatible_room_ids": []},
+    {"id": 18, "length_of_stay": 2, "release_date": 5, "due_date": 7, "incompatible_room_ids": []},
+    {"id": 19, "length_of_stay": 3, "release_date": 0, "due_date": 6, "incompatible_room_ids": []}
+  ],
+  "nurses": [
+    {"id": 0, "working_shifts": [{"day": 0}, {"day": 1}, {"day": 2}, {"day": 3}]},
+    {"id": 1, "working_shifts": [{"day": 1}, {"day": 2}, {"day": 3}, {"day": 4}]},
+    {"id": 2, "working_shifts": [{"day": 0}, {"day": 1}, {"day": 3}, {"day": 4}]},
+    {"id": 3, "working_shifts": [{"day": 2}, {"day": 3}, {"day": 5}, {"day": 6}]},
+    {"id": 4, "working_shifts": [{"day": 4}, {"day": 5}, {"day": 6}]}
+  ]
+}
